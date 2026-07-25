@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Milano Cafe - Authentic Italian cuisine in Austin, Texas. Reserve your table or order online. Fresh pasta, pizza, veal, and seafood.">
+    <meta name="keywords" content="Italian restaurant Austin, authentic Italian food, Italian cuisine Texas, Milano Cafe">
+    <meta name="author" content="Milano Cafe">
+    <title>Milano Cafe | Authentic Italian Restaurant in Austin, TX</title>
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://milano-cafe-v3.github.io/">
+    <meta property="og:title" content="Milano Cafe | Authentic Italian Restaurant in Austin">
+    <meta property="og:description" content="Experience authentic Italian cuisine in the heart of Austin. Reserve now or order online.">
+    <meta property="og:image" content="https://milano-cafe-v3.github.io/assets/images/hero-image.jpg">
+    
+    <!-- Local Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Milano Cafe",
+        "image": "https://milano-cafe-v3.github.io/assets/images/hero-image.jpg",
+        "description": "Authentic Italian restaurant featuring fresh pasta, pizza, veal, and seafood",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "4601 Southwest Parkway",
+            "addressLocality": "Austin",
+            "addressRegion": "TX",
+            "postalCode": "78745",
+            "addressCountry": "US"
+        },
+        "telephone": "+15124286076",
+        "email": "cafemilanoaustin@gmail.com",
+        "url": "https://milano-cafe-v3.github.io/",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "11:00",
+                "closes": "21:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Sunday",
+                "opens": "CLOSED",
+                "closes": "CLOSED"
+            }
+        ],
+        "cuisine": "Italian",
+        "priceRange": "$$",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "147"
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Milano Cafe</h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="reservations.html" class="nav-link">Reserve</a></li>
+                <li><a href="ordering.html" class="nav-link">Order</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Authentic Italian Cuisine in the Heart of Austin</h2>
+            <p class="hero-subtitle">Farm-to-table Italian dining with a passion for excellence. Family recipes, modern ambiance.</p>
+            <div class="hero-cta">
+                <a href="reservations.html" class="btn btn-primary">Reserve Your Table</a>
+                <a href="ordering.html" class="btn btn-secondary">Order Online</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes Section -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <h2 class="section-title">Signature Dishes</h2>
+            <p class="section-subtitle">Experience our most beloved creations</p>
+            
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <img src="assets/images/dish-1.jpg" alt="Veal Parmesan - tender veal in parmesan crust">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Veal Parmesan</h3>
+                        <p>Tender veal, house-made marinara, melted parmesan cheese, served with spaghetti</p>
+                        <span class="price">$28</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <img src="assets/images/dish-2.jpg" alt="Lobster Ravioli - delicate homemade ravioli">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Lobster Ravioli</h3>
+                        <p>Delicate homemade ravioli filled with lobster in fresh tomato sauce</p>
+                        <span class="price">$22</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <img src="assets/images/dish-3.jpg" alt="Margherita Pizza - fresh mozzarella and basil">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Margherita Pizza</h3>
+                        <p>Wood-fired pizza, fresh mozzarella, basil from our garden, aged balsamic</p>
+                        <span class="price">$13</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="menu.html" class="btn btn-primary" style="margin-top: 3rem;">View Full Menu</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Milano Cafe Section -->
+    <section class="why-choose" id="whyChoose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Milano Cafe</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🍝</div>
+                    <h3>Authentic Recipes</h3>
+                    <p>Family recipes passed down through generations from Piedmont, Italy</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌱</div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Locally-sourced produce and premium imported Italian ingredients</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">❤️</div>
+                    <h3>Warm Hospitality</h3>
+                    <p>Every guest treated like family in our welcoming Italian ambiance</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎉</div>
+                    <h3>Private Events</h3>
+                    <p>Perfect venue for celebrations, anniversaries, and special occasions</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">🍷</div>
+                    <h3>Italian Wines</h3>
+                    <p>Curated selection of Italian wines paired with our menu</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">👨‍🍳</div>
+                    <h3>Expert Chef</h3>
+                    <p>Executive Chef trained in Milan with 20+ years of culinary excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Milano Cafe is our favorite spot in Austin! The food is incredible and the service is always warm and welcoming. We've been coming here for three years and never had a bad meal."</p>
+                    <p class="testimonial-author">— Sarah M., Austin</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Every time we visit, we discover something new on the menu. The wine selection pairs perfectly with the food. This is authentic Italian dining done right."</p>
+                    <p class="testimonial-author">— James T., Austin</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"We celebrated our anniversary here and it was absolutely perfect. The ambiance is romantic, the food is exquisite, and the staff treated us like royalty. Highly recommend!"</p>
+                    <p class="testimonial-author">— Maria & Antonio, Austin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="location-content">
+                <div class="location-info">
+                    <h2 class="section-title">Visit Us</h2>
+                    <p><strong>Milano Cafe</strong></p>
+                    <p>4601 Southwest Parkway<br>Austin, TX 78745</p>
+                    
+                    <p style="margin-top: 1.5rem;"><strong>Hours:</strong></p>
+                    <p>Monday - Saturday: 11am - 9pm<br>Sunday: Closed</p>
+                    
+                    <p style="margin-top: 1.5rem;"><strong>Contact:</strong></p>
+                    <p>Phone: <a href="tel:+15124286076">(512) 428-6076</a></p>
+                    <p>Email: <a href="mailto:cafemilanoaustin@gmail.com">cafemilanoaustin@gmail.com</a></p>
+                    
+                    <div style="margin-top: 2rem;">
+                        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+                    </div>
+                </div>
+
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.906752908396!2d-97.78945!3d30.23156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b2e4f1c1c1c1%3A0x1c1c1c1c1c1c1c1c!2s4601%20Southwest%20Parkway%2C%20Austin%2C%20TX%2078745!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience Milano Cafe?</h2>
+            <p>Join us for an unforgettable Italian dining experience</p>
+            <div class="cta-buttons">
+                <a href="reservations.html" class="btn btn-primary">Reserve Online</a>
+                <a href="ordering.html" class="btn btn-secondary">Order for Delivery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Milano Cafe</h3>
+                    <p>Authentic Italian cuisine in the heart of Austin</p>
+                    <p>4601 Southwest Parkway<br>Austin, TX 78745</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="ordering.html">Order Online</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Sat: 11am - 9pm<br>Sunday: Closed</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Phone: <a href="tel:+15124286076">(512) 428-6076</a></p>
+                    <p>Email: <a href="mailto:cafemilanoaustin@gmail.com">cafemilanoaustin@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Milano Cafe. All rights reserved.</p>
+                <p>Designed for excellence. Built for connections.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
